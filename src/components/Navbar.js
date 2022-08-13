@@ -41,7 +41,11 @@ function Navbar() {
         </button>
         <div className='collapse navbar-collapse' id='navbarSupportedContent'>
           <ul className='navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end'></ul>
-          <div onClick={toggleMode} className='cursor' title='Change Theme'>
+          <div
+            onClick={toggleMode}
+            className='cursor hover'
+            title='Change Theme'
+          >
             <label
               htmlFor='theme'
               className={`text-${
