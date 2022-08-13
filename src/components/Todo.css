@@ -131,12 +131,9 @@
   background-color: #444;
   border: 2px solid #252525;
 }
-
-@media (max-width: 420px) {
-  .modal-dialog {
-    top: calc(100% - 725px); 
-  }
-}
 .margin{
   margin-top: 6px;
+}
+body{
+  transition: all 0.6s linear;
 }

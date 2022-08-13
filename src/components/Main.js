@@ -40,7 +40,7 @@ function Main(props) {
       setShowAdd(false)
       handleAddTask(e, addTask, setName, name)
     } else {
-      showAlert('Please enter some task first!', 'danger')
+      alert('Please enter some task first!')
     }
   }
 
